@@ -27,6 +27,13 @@ const teamData: TeamMember[] = [
       "Mengembangkan API dan sistem backend yang aman dan scalable.",
     skills: ["Node.js", "Express", "PostgreSQL"],
   },
+  {
+    name: "Alfin Alfian",
+    role: "Copywriting",
+    description:
+      "Membuat sebuah essai",
+    skills: ["Node.js", "Express", "PostgreSQL"],
+  }
 ];
 
 export default function TeamSection() {
@@ -34,12 +41,11 @@ export default function TeamSection() {
     <section className="bg-gray-50 py-20">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-3xl font-bold mb-4 text-black">
-          Tim Kami
+          Tim Member
         </h2>
 
         <p className="text-gray-600 mb-10 max-w-2xl">
-          Kami terdiri dari individu profesional yang memiliki keahlian
-          di bidangnya masing-masing.
+          We are ...
         </p>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -66,7 +72,7 @@ function TeamCard({ member }: TeamCardProps) {
       {/* Photo Placeholder */}
       <div className="h-40 w-40 mx-auto rounded-full bg-gray-200 mb-4" />
 
-      <h3 className="text-lg font-semibold text-center">
+      <h3 className="text-lg text-gray-800 font-semibold text-center">
         {member.name}
       </h3>
 
