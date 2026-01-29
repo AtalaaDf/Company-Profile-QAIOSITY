@@ -171,6 +171,7 @@ export default function SkillFlipModal({ open, onClose, member }: any) {
                   </div>
                 </div>
               </div>
+              
             </motion.div>
           </motion.div>
         </motion.div>

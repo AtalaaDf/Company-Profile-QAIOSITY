@@ -20,7 +20,7 @@ export default function TechStack() {
   const startX = useRef(0);
   const scrollLeft = useRef(0);
 
-  /* AUTO SCROLL */
+  {/* AUTO SCROLL */}
   useEffect(() => {
     const container = carouselRef.current;
     if (!container) return;
@@ -33,7 +33,7 @@ export default function TechStack() {
         scrollPosition += 0.5;
         container.scrollLeft = scrollPosition;
 
-        // Reset ke awal saat mencapai setengah (karena duplicate)
+        {/* Reset ke awal saat mencapai setengah */}
         if (scrollPosition >= container.scrollWidth / 2) {
           scrollPosition = 0;
         }
@@ -46,7 +46,7 @@ export default function TechStack() {
     return () => cancelAnimationFrame(animationId);
   }, [isDragging]);
 
-  /* DRAG HANDLERS */
+  {/* DRAG HANDLERS */}
   const handlePointerDown = (e: React.PointerEvent) => {
     const container = carouselRef.current;
     if (!container) return;
@@ -73,7 +73,7 @@ export default function TechStack() {
 
   return (
     <section className="w-full py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
-      {/* Header Section - dengan padding */}
+      {/* Header Section */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <div className="flex items-center gap-3 mb-4">
           <div className="p-2 bg-blue-600 rounded-lg">
@@ -89,7 +89,7 @@ export default function TechStack() {
         </p>
       </div>
 
-      {/* Carousel Section - full width tanpa padding */}
+      {/* Carousel Section*/}
       <div className="relative">
         {/* Gradient Overlays */}
         <div className="absolute left-0 top-0 bottom-0 w-20 md:w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
@@ -111,7 +111,7 @@ export default function TechStack() {
             msOverflowStyle: 'none',
           }}
         >
-          {/* Duplicate array 3x untuk infinite scroll yang lebih smooth */}
+          {/* Duplicate array*/}
           {[...techs, ...techs, ...techs].map((tech, index) => (
             <div
               key={index}
@@ -158,11 +158,7 @@ export default function TechStack() {
         </div>
       </div>
 
-      <style jsx>{`
-        div::-webkit-scrollbar {
-          display: none;
-        }
-      `}</style>
+      <style jsx>{`div::-webkit-scrollbar {display: none;}`}</style>
     </section>
   );
 }
