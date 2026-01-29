@@ -55,7 +55,7 @@ const teamData: TeamMember[] = [
     skills: [ 
       "Basic Cyber Security", "CTF", "EDR Project", "VM & Linux Basics", "Spring Boot",
     ], 
-    image: "/images/team/agna.jpeg", 
+    image: "/images/team/Agna.jpeg", 
   }, 
   { 
     name: "Nayla Sahara", 
@@ -72,7 +72,7 @@ const teamData: TeamMember[] = [
     description: "Menulis esai dan konten kreatif dengan kemampuan komunikasi lisan yang baik serta pemahaman dasar teknis.", 
     skills: [ "Essay Writing", "Public Speaking", "Canva", "C++" 
     ], 
-    image: "/images/team/alfin.jpeg",
+    image: "/images/team/alpin.jpeg",
   }, 
   { 
     name: "Nayla Tristania Aprillia", 
