@@ -52,7 +52,7 @@ const AboutContent = () => {
             <div className="overflow-hidden rounded-xl aspect-[4/3] bg-blue-50 relative">
                <div className="absolute inset-0 flex items-center justify-center text-slate-400 italic">
                </div>
-               <Image src="/images/fasilkom.jpg" alt="Team" fill className="object-cover"
+               <Image src="/images/team/Qaiosityteam.jpeg" alt="Team" fill className="object-cover"
                /> 
             </div>
             <p className="mt-3 text-sm font-medium text-slate-500 px-38">

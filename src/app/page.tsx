@@ -8,7 +8,7 @@ export default function HomePage() {
       <section
         className="relative w-full h-[80vh] flex items-center bg-cover bg-center"
         style={{
-          backgroundImage: "url('/images/fasilkom.jpg')",
+          backgroundImage: "url('/images/team/Qaiosityteam.jpeg')",
         }}
       >
         {/* Overlay */}
