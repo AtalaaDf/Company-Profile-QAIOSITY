@@ -25,7 +25,7 @@ export default function Navbar({ aboutRef, teamRef, serviceRef }: NavbarProps) {
   const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // Close mobile menu
+      setIsOpen(false);
     }
   };
 

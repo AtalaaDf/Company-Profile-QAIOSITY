@@ -54,11 +54,6 @@ export default function HomePage() {
       <div ref={serviceRef}>
         <ServiceSection />
       </div>
-
-      {/* Contact at footer */}
-      <div ref={serviceRef}>
-        {/* <ServiceSection /> */}
-      </div>
     </>
   );
 }
