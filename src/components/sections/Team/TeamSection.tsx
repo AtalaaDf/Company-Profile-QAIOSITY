@@ -46,7 +46,7 @@ const teamData: TeamMember[] = [
     role: "Creative Content Designer", 
     description: "Berpengalaman dalam mengedit konten visual dan video untuk media sosial dengan fokus pada branding dan engagement.", 
     skills: [
-      "Canva", "Short Video Editing", "Content Design"
+      "Design Grafis", "Short Video Editing", "Content Design"
     ], image: "/images/team/revania.jpeg", 
   }, 
   { 
@@ -63,7 +63,7 @@ const teamData: TeamMember[] = [
     role: "Administrative & Creative Support", 
     description: "Mendukung kegiatan publikasi dan administrasi dengan kemampuan komunikasi, desain, dan memiliki pengetahuan dan pengalaman dalam pengolahan data.", 
     skills: [ 
-      "Public Speaking", "Canva", "Video Editing"
+      "Public Speaking", "Design grafis", "Video Editing"
     ], 
     image: "/images/team/nayla.jpeg", 
   }, 
@@ -71,7 +71,7 @@ const teamData: TeamMember[] = [
     name: "Muhammad Alfin Alfian", 
     role: "Copywriter & Content Writer", 
     description: "Menulis esai dan konten kreatif dengan kemampuan komunikasi lisan yang baik serta pemahaman dasar teknis.", 
-    skills: [ "Essay Writing", "Public Speaking", "Canva", "C++" 
+    skills: [ "Essay Writing", "Public Speaking", "Desain Grafis", "C++" 
     ], 
     image: "/images/team/alpin.jpeg",
   }, 
@@ -91,13 +91,13 @@ const teamData: TeamMember[] = [
     skills: [ 
       "Java", "C++", "Technical Writing", "Administrative Writing", "Basic Digital Entrepreneurship", 
     ], 
-    image: "/images/team/fadila.jpeg", 
+    image: "/images/team/mumtazah.jpeg", 
   }, 
   { 
     name: "Galih Artha Ditha", 
     role: "Project & Digital Management", 
     description: "Mengelola proyek dan strategi konten digital dengan fokus pada perencanaan, koordinasi, dan eksekusi.", 
-    skills: [ "Project Management", "Digital Marketing", "Content Scripting", "Content Ideation", "Canva", 
+    skills: [ "Project Management", "Digital Marketing", "Content Scripting", "Content Ideation", "Desain Grafis", 
     ], 
     image: "/images/team/artha.jpeg", },
 ];
