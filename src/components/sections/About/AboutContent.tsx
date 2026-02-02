@@ -8,22 +8,22 @@ const AboutContent = () => {
   const points = [
     {
       id: 1,
-      title: "Ruang Interaksi dan Pembelajaran Komunitas",
-      description: "Qaiosity Memfasilitasi kegiatan diskusi pengetahuan antara individu dan tim melalui lingkungan kolaboratif.",
+      title: "Community Interaction and Learning Space",
+      description: "Qaiosity facilitates knowledge-sharing discussions between individuals and teams through a collaborative environment.",
       color: "text-gray-500",
       borderColor: "border-violet-400",
     },
     {
       id: 2,
-      title: "Eksplorasi dan Pengembangan Inovasi Teknologi",
-      description: "Qaiosity Mengkaji, menguji, dan Mengembangkan ide melalui proses eksplorasi dan eksperimen terstruktur.",
+      title: "Exploration and Development of Technological Innovation",
+      description: "Qaiosity Examining, testing, and developing ideas through a structured process of exploration and experimentation.",
       color: "text-gray-500",
       borderColor: "border-pink-300",
     },
     {
       id: 3,
-      title: "Kolaborasi Untuk Solusi Berdampak",
-      description: "Perancangan solusi didasari kolaborasi yang menghasilkan solusi yang terintegrasi dan memberi dampak nyata.",
+      title: "Collaboration for Impactful Solutions",
+      description: "Solution design is based on collaboration that produces integrated solutions and has a real impact.",
       color: "text-gray-500",
       borderColor: "border-teal-300",
     },
@@ -46,19 +46,16 @@ const AboutContent = () => {
     <section className="max-w-6xl mx-auto px-2 py-2 mb-10 font-sans">
       {/* Header Section */}
       <motion.div 
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
+        initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} 
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-          Ruang <span className="text-[#908FDC]">kolaborasi</span> untuk inovasi teknologi.
+          A <span className="text-[#908FDC]">collaborative</span> space for technological innovation.
         </h2>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-          Qaiosity adalah ruang kolaborasi tempat komunitas teknologi bertemu, bereksperimen, 
-          dan membangun inovasi. Kami mempertemukan individu, tim, dan ide untuk belajar bersama, 
-          berkolaborasi secara terbuka, serta membangun solusi teknologi yang relevan dan <span className="text-indigo-400 underline cursor-pointer decoration-2 underline-offset-4">berdampak nyata</span>.
+          Qaiosity is a collaborative space where the technology community meets, experiments, 
+          and builds innovations. We bring together individuals, teams, and ideas to learn together, 
+          collaborate openly, and build relevant and <span className="text-indigo-400 underline cursor-pointer decoration-2 underline-offset-4">effective technological solutions.</span>.
         </p>
       </motion.div>
 
@@ -84,16 +81,13 @@ const AboutContent = () => {
                /> 
             </div>
             <p className="mt-3 text-sm font-medium text-slate-500 text-center">
-               Kerja sama antar sesama team
+              Cooperation among team members
             </p>
           </div>
         </motion.div>
 
         <motion.div 
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
+          variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}
           className="space-y-10 ml-4"
         >
           {points.map((point) => (
@@ -110,7 +104,7 @@ const AboutContent = () => {
               </motion.div>
               
               <div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2 group-hover:text-[#908FDC] transition-colors">
+                <h3 className="text-xl font-bold text-slate-800 mb-2 transition-colors">
                   {point.title}
                 </h3>
                 <p className="text-slate-600 leading-relaxed">

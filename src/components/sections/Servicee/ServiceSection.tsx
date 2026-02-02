@@ -30,7 +30,7 @@ export default function ServiceSection() {
       >
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
-            Berikan Kritik dan Saran
+            Give Criticism and Suggestions
           </h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto rounded-full" />
         </div>
@@ -49,7 +49,7 @@ export default function ServiceSection() {
               <motion.div whileFocus={{ y: -2 }} className="flex flex-col">
                 <input
                   type="email"
-                  placeholder="Email Anda"
+                  placeholder="Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="border border-gray-200 bg-gray-50 text-gray-700 p-3 rounded-xl text-sm sm:text-base focus:ring-2 focus:ring-blue-500 focus:border-transparent focus:bg-white outline-none transition-all"
@@ -60,7 +60,7 @@ export default function ServiceSection() {
               {/* Message Input */}
               <motion.div whileFocus={{ y: -2 }} className="flex flex-col">
                 <textarea
-                  placeholder="Pesan Anda"
+                  placeholder="Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   className="border border-gray-200 bg-gray-50 text-gray-700 p-3 rounded-xl h-32 text-sm sm:text-base focus:ring-2 focus:ring-blue-500 focus:border-transparent focus:bg-white outline-none transition-all resize-none"
@@ -74,7 +74,7 @@ export default function ServiceSection() {
                 type="submit"
                 className="bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition duration-300 text-sm sm:text-base font-bold flex items-center justify-center gap-2 shadow-lg shadow-blue-200"
               >
-                <span>Kirim Pesan</span>
+                <span>Send Message</span>
                 <Send className="w-4 h-4" />
               </motion.button>
             </motion.form>
@@ -89,8 +89,8 @@ export default function ServiceSection() {
               <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4">
                 <CheckCircle2 className="w-10 h-10" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800">Pesan Terkirim!</h3>
-              <p className="text-gray-500">Terima kasih atas masukannya.</p>
+              <h3 className="text-xl font-bold text-gray-800">Message sent!</h3>
+              <p className="text-gray-500">Thanks for your feedback.</p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -101,7 +101,7 @@ export default function ServiceSection() {
           transition={{ delay: 0.4 }}
           className="mt-8 text-gray-500 text-center text-sm sm:text-base leading-relaxed"
         >
-          Kami sangat menghargai kritik dan saran dari kalian. Umpan balik kalian sangat membantu perkembangan komunitas kami.
+          We greatly appreciate your criticism and suggestions. Your feedback is very helpful for the development of our community.
         </motion.p>
       </motion.div>
     </section>

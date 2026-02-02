@@ -18,7 +18,7 @@ const teamData: TeamMember[] = [
     name: "M Atala Daffa Alfaris",
     role: "Frontend Developer",
     description:
-      "Berpengalaman membangun antarmuka web modern dengan fokus pada performa, skalabilitas, dan user experience.",
+      "Experienced in building modern web interfaces with a focus on performance, scalability, and user experience.",
     skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     image: "/images/team/atala.jpeg",
   },
@@ -26,7 +26,7 @@ const teamData: TeamMember[] = [
     name: "Felix Gilbert",
     role: "Machine Learning Engineer",
     description:
-      "Mengembangkan dan mengimplementasikan model machine learning untuk analisis data dan computer vision.",
+      "Developing and implementing machine learning models for data analysis and computer vision.",
     skills: [
       "Python", "TensorFlow", "Neural Network", "Scikit-Learn", 
       "Flask", "Data Analysis", "Next.js", "OpenCV",
@@ -36,7 +36,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Alif Salsabil Salam", 
     role: "Public Relation", 
-    description: "Memiliki kemampuan komunikasi teknis yang baik untuk presentasi dan kolaborasi antara sesama tim internal maupun external.", 
+    description: "Possess strong technical communication skills for presentations and collaboration between internal and external teams.", 
     skills: [ 
       "C++", "Public Speaking", "Video Editing"
     ], image: "/images/team/alip.jpeg", 
@@ -44,7 +44,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Revania Azzahra", 
     role: "Creative Content Designer", 
-    description: "Berpengalaman dalam mengedit konten visual dan video untuk media sosial dengan fokus pada branding dan engagement.", 
+    description: "Experienced in editing visual content and videos for social media with a focus on branding and engagement.", 
     skills: [
       "Design Grafis", "Short Video Editing", "Content Design"
     ], image: "/images/team/revania.jpeg", 
@@ -52,7 +52,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Agna Fadilla", 
     role: "Cyber Security Enthusiast", 
-    description: "Memiliki pemahaman dasar keamanan siber serta pengalaman praktik melalui CTF dan pengembangan project keamanan.", 
+    description: "Possess a basic understanding of cyber security and practical experience through CTF and security project development.", 
     skills: [ 
       "Basic Cyber Security", "CTF", "EDR Project", "VM & Linux Basics", "Spring Boot",
     ], 
@@ -61,7 +61,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Nayla Sahara", 
     role: "Administrative & Creative Support", 
-    description: "Mendukung kegiatan publikasi dan administrasi dengan kemampuan komunikasi, desain, dan memiliki pengetahuan dan pengalaman dalam pengolahan data.", 
+    description: "Supporting publication and administrative activities with communication and design skills, as well as knowledge and experience in data processing.", 
     skills: [ 
       "Public Speaking", "Design grafis", "Video Editing"
     ], 
@@ -70,7 +70,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Muhammad Alfin Alfian", 
     role: "Copywriter & Content Writer", 
-    description: "Menulis esai dan konten kreatif dengan kemampuan komunikasi lisan yang baik serta pemahaman dasar teknis.", 
+    description: "Writing essays and creative content with good verbal communication skills and a basic understanding of technical matters.", 
     skills: [ "Essay Writing", "Public Speaking", "Desain Grafis", "C++" 
     ], 
     image: "/images/team/alpin.jpeg",
@@ -78,7 +78,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Nayla Tristania Aprillia", 
     role: "Digital Media & Marketing Support", 
-    description: "Mendukung pengelolaan media digital dengan keahlian editing multimedia, pemasaran digital, dan manajemen jadwal.", 
+    description: "Supporting digital media management with expertise in multimedia editing, digital marketing, and schedule management.", 
     skills: [ 
       "Multimedia Editing", "Digital Marketing", "Scheduling" 
     ], 
@@ -87,7 +87,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Fadila Mumtazah", 
     role: "Junior Technical & Administrative Support", 
-    description: "Memiliki dasar pemrograman dan kemampuan penulisan teknis serta administrasi untuk mendukung operasional proyek.", 
+    description: "Possess programming fundamentals and technical writing and administrative skills to support project operations.", 
     skills: [ 
       "Java", "C++", "Technical Writing", "Administrative Writing", "Basic Digital Entrepreneurship", 
     ], 
@@ -96,7 +96,7 @@ const teamData: TeamMember[] = [
   { 
     name: "Galih Artha Ditha", 
     role: "Project & Digital Management", 
-    description: "Mengelola proyek dan strategi konten digital dengan fokus pada perencanaan, koordinasi, dan eksekusi.", 
+    description: "Managing digital content projects and strategies with a focus on planning, coordination, and execution.", 
     skills: [ "Project Management", "Digital Marketing", "Content Scripting", "Content Ideation", "Desain Grafis", 
     ], 
     image: "/images/team/artha.jpeg", },
@@ -201,7 +201,7 @@ export default function TeamSection() {
                 onClick={() => setSelected(member)}
                 className="w-full rounded-xl bg-gray-900 py-3 text-sm font-bold text-white hover:bg-blue-600 transition-colors duration-300 shadow-lg shadow-gray-200 hover:shadow-blue-200"
               >
-                Selengkapnya
+                More
               </motion.button>
             </motion.div>
           ))}

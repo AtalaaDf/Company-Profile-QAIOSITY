@@ -48,7 +48,7 @@ export default function SkillFlipModal({ open, onClose, member }: any) {
               onClick={onClose}
               className="absolute -right-2 -top-12 z-10 flex items-center gap-2 text-white/70 hover:text-white transition-colors"
             >
-              <span className="text-sm font-medium">Tutup</span>
+              <span className="text-sm font-medium">Close</span>
               <div className="rounded-full bg-white/10 p-2 backdrop-blur-md">
                 <X className="h-5 w-5" />
               </div>
@@ -98,7 +98,7 @@ export default function SkillFlipModal({ open, onClose, member }: any) {
                   <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                     <div className="flex items-center gap-2 text-blue-600 font-bold text-sm">
                       <BrainCircuit className="h-4 w-4" />
-                      <span>Lihat Skill</span>
+                      <span>See Skills</span>
                     </div>
                     <ExternalLink className="h-4 w-4 text-gray-300" />
                   </div>
@@ -154,7 +154,7 @@ export default function SkillFlipModal({ open, onClose, member }: any) {
                       }}
                       className="w-full rounded-2xl bg-blue-600 py-4 text-xs font-black uppercase tracking-widest text-white shadow-[0_10px_20px_rgba(37,99,235,0.3)] hover:bg-blue-500 active:scale-95 transition-all"
                     >
-                      Kembali Ke Profil
+                      Back
                     </button>
                   </div>
                 </div>
